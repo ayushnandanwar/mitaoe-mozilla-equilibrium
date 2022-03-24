@@ -1,13 +1,13 @@
 header{
     height: 480px;
-    background: url('assets/front-page-equi.jpg');
+    background: url('https://mitaoe.ac.in/equilibrium/content/technics/images/front-page-equi.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 7px solid black;
 }
 .about-header{
     height: 480px;
-    background: url('assets/about/home_technics_subheader1.jpg');
+    background: url('https://mitaoe.ac.in/equilibrium/content/technics/images/home_technics_subheader1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 7px solid black;
