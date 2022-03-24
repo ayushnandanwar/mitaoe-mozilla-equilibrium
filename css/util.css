@@ -1,0 +1,31 @@
+
+
+.btn-lg{
+    padding: 10px 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+.btn-lg:hover{
+    opacity: .7;
+}
+.btn-sm{
+    transition: all .3s ease-in-out;
+    padding: 8px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px
+}
+.btn-sm:hover{
+    opacity: .7;
+}
+.btn-submit{
+    background-color: rgb(88, 42, 255);
+    color: white;
+}
+.btn-view{
+    background-color: blue;
+    color: white;
+}

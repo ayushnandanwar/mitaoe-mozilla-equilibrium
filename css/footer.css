@@ -1,0 +1,34 @@
+footer{
+    height: 300px;
+    background-color:  #3d5aee;
+}
+footer a{
+    color: white;
+}
+footer .upper{
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-content{
+    width: 350px;
+    line-height: 20px;
+}
+.footer-content > h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+footer .below{
+    background-color:#3d5aee;
+    color: white;
+    padding: 30px 0;
+    border-top: 2px solid white;
+    text-align: center;
+}
+footer .below a,.upper a{
+    text-decoration: underline;
+
+}

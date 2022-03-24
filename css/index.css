@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    font-family: 'Red Hat Mono', monospace;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    margin-top: 50px;
+    width: 80%;
+    margin: 50px auto;
+}
+.container > h2,.container > p{
+    margin: 40px 0;
+}
+
+
+.clubs-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.club-card{
+    margin: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    transition: all .3s;
+    box-shadow: 0px 0px 1px rgb(65, 64, 64);
+}
+.club-card:hover{
+    box-shadow: 4px 0px 10px rgb(65, 64, 64);
+    zoom: 1;
+}
+.club-img{
+    width: 100%;
+    cursor: pointer;
+    transition: all .7s;
+}
+.club-img:hover{
+   transform:rotate(360deg);
+}
+
+
+.club-name{
+    background-color: white;
+    padding: 8px 25px;
+    margin: 15px 0;
+    
+    font-size: larger;
+    text-align: center;
+    transform: rotate(-3deg);
+}
+/* about page*/
+.container-about{
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-img{
+    width: 50%;
+    margin: 0 auto;
+}
+.info-box{
+    margin: 50px;
+}
+.info-box > h1{
+    margin-bottom: 30px;
+}
+.info-box > p,.info-box > ul{
+    color: rgb(143, 143, 143);
+}
+
+/* contact css*/
+
+.contact-container{
+    width: 100%;
+}
+.contact-container > h1{
+    padding: 30px;
+    margin-bottom: 32px;
+    border-bottom: 3px dashed blue;
+    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 12px;
+    border-right: 2px solid black;
+}
+.profile-pic{
+    width: 75%;
+    margin-bottom: 15px;
+}
+.profile p{
+    text-align: center;
+}
+.pro-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.address-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.address-box img{
+   height: max-content;
+}
+.address-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    line-height: 34px;
+}
+.address-content p{
+    color: gray;
+}
+
+.connect-form{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: left;
+}
+.connect-form div{
+    margin: 7px 0;
+}
+
+input{
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px 8px;
+    width: 100%;
+    margin: 6px 0;
+
+    border-bottom: 2px solid black;
+}
+input:focus{
+    outline: none;
+}
+
+textarea{
+
+    font-size: 1.2rem;
+    padding: 5px 8px;
+    width: 100%;
+
+    border-bottom: 2px solid black;
+}
+
+
+/* fliip card*/
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0px 0px 1px rgb(65, 64, 64);
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
