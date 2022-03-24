@@ -33,6 +33,7 @@ nav{
 .header-toggle{
     position: fixed;
     width: 100%;
+    top: 0;
     height: 60px;
     padding: 0 160px;
 }
